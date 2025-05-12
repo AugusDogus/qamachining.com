@@ -1,0 +1,8 @@
+---
+const currentYear = new Date().getFullYear();
+---
+<span id="copyright-year">{currentYear}</span>
+
+<script type="module">
+  document.getElementById('copyright-year').textContent = new Date().getFullYear();
+</script> 
